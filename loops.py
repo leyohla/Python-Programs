@@ -1,22 +1,30 @@
-#infinite loops
+#infinite loops:
 
+#Input:
+num = int(input("type a number: "))
+print(num)
+
+Output: 
+Type a number: 
+
+#While Loop:
 while 1:
     number = input('Enter number: ')
     if number == '4': break
-output:
+Output:
 Enter number: 
 Enter number:
 Enter number:
 
 #Asks for user input before each iteration, and loops once user inputs a number.
-    
-#dictionaries
+
+#Dictionaries:
 
 ages = {'me': 22, 'someone': 32, 'someoneelse': 65}
 for item in ages:
     print item
     
-output: 
+Output: 
 me
 someone
 someoneelse
