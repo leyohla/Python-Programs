@@ -1,0 +1,102 @@
+'''
+Week 1 MIT Exercises: Core Elements of Programming
+Conditionals, Branching and (for and while) Loops
+'''
+
+#Exercise 1: Write a piece of Python code that prints out the string 'hello world' if the value of an integer variable, happy, is strictly greater than 2.
+
+happy = 1
+if happy > 2:
+    print("hello world")
+else:
+    print("goodbye world")
+
+#Exercise 2: Write a piece of Python code that evaluates varA and varB, and then prints out one of the following messages...
+    
+varA = 3
+varB = 5
+string = "hello"
+if varA !=string or varB != string:
+    	print("string involved")
+if varA > varB:
+        print("bigger")
+if varA == varB:
+        print("equal")
+if varA < varB:
+        print("smaller")
+		
+#Exercise 1: Convert the following into code that uses a while loop.
+
+n=0
+while (n < 10):
+    print('print ' + str(n))
+    n += 2
+    
+print("Goodbye!")
+
+#Exercise 2: Convert the following into code that uses a while loop.
+
+n = 10
+print('Hello!')
+while (n > 1):
+	print('prints ' + str(n))
+	n -= 2
+
+'''Exercise 3: Write a while loop that sums the values 1 through end, inclusive. end is a variable that 
+we define for you. So, for example, if we define end to be 6, your code should print out 
+the result:
+21
+which is 1 + 2 + 3 + 4 + 5 + 6.
+'''
+end = 14
+i = 1
+result = 0
+while i <= end:
+    result += i
+    i += 1
+
+print(result)
+    
+#end, iterator, result. (Got some help)
+
+#for loops exercises:
+
+#Exercise 1: Convert the following code into code that uses a for loop.
+
+for n in range(2,12,2):
+	print('prints ' + str(n))
+print('Goodbye!')
+
+#Exercise 2: Convert the following code into code that uses a for loop.
+
+print('Hello!')
+for n in range(10,0,-2):
+       if n <= 10:
+           print(n)
+           
+'''
+Alternative:
+
+num = ['hello', 10,8,6,4,2]
+for i in num:
+    if n <=10:
+        print(n)
+    else:
+        n = 2
+        break
+'''
+           
+'''
+Exercise 3: Write a while loop that sums the values 1 through end, inclusive. end is a variable that 
+we define for you. So, for example, if we define end to be 6, your code should print out 
+the result:
+21
+which is 1 + 2 + 3 + 4 + 5 + 6.
+'''
+        
+sum = 0
+i = 1
+end = 3
+for i in range(i,end+1):
+    sum += i
+print(sum)
