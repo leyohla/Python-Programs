@@ -1,3 +1,7 @@
+'''
+Following along with the Python exercises set by thenewboston's YouTube videos.
+'''
+
 #infinite loops:
 
 #Input:
