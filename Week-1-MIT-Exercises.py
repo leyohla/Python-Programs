@@ -1,3 +1,7 @@
+'''
+Week 1 MIT Exercises: Conditionals, Branching and (for and while) Loops
+'''
+
 #if-else
 
 x = 4
