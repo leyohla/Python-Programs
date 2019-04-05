@@ -17,7 +17,7 @@ elif x > y:
 else:
     print('y is bigger')
     
-#while loops - unlimited iterations unless n is initialised.
+#while loops - unlimited iterations unless n is initialised. In while loops, you must set a variable outside the loop.
 
 b= 5
 b
