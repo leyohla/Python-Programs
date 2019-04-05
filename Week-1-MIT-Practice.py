@@ -1,5 +1,6 @@
 '''
-Week 1 MIT Exercises: Conditionals, Branching and (for and while) Loops
+Week 1 MIT Practice: Core Elements of Programming
+Conditionals, Branching and (for and while) Loops
 '''
 
 #if-else
